@@ -10,7 +10,7 @@ _This is an evolving measurement converter page created to practice JavaScript/j
 
 ## Setup/Installation Requirements
 
-* _view at twyststar.github.io/calculator_
+* _view at twyststar.github.io/converter_
 * _OR_
 * _clone this repository to desktop_
 * _open index.html with browser_
