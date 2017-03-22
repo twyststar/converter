@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Converter</title>
+  </head>
+
+  <body>
+    <div class="container">
+<!--HEAD-->
+      <div class="jumbotron">
+        <h1>Converter</h1>
+        <hr class="my-4">
+        <p>Basic measurement conversions- FREE!</p>
+      </div>
+<!--FORM-->
+      <div class="row">
+        <div class="well col-md-6">
+          <form id="FToC" action="index.html" method="post">
+            <div class="form-group">
+              <label for="FtoC1">Fahrenheit to Celcius- enter Fahrenheit</label>
+              <input id="FToC1" class="form-control" type="text">
+            </div>
+            <!-- <div class="form-group">
+              <label for="FToC2">Celcius</label>
+              <input id="FToC2" class="form-control" type="text">
+            </div> -->
+            <button type="submit" class="btn btn-warning">Convert!</button>
+          </form>
+          <div class="well">
+            <h4 id="outputFToC"></h4>
+          </div>
+        </div>
+        <div class="well col-md-6">
+          <form id="CToF" action="index.html" method="post">
+            <div class="form-group">
+              <label for="CToF1">Celcius</label>
+              <input id="CToF1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="CToF2">Fahrenheit</label>
+              <input id="CToF2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-info">Convert!</button>
+          </form>
+          <div class="well">
+            <h4 id="outputCToF"></h4>
+          </div>
+        </div>
+        <div class="well col-md-6">
+          <form id="multiply" action="index.html" method="post">
+            <div class="form-group">
+              <label for="multiply1"></label>
+              <input id="multiply1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="multiply2"></label>
+              <input id="multiply2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-danger">Multiply</button>
+          </form>
+          <div class="well">
+            <h4 id="outputMultiply"></h4>
+          </div>
+        </div>
+        <div class="well col-md-6">
+          <form id="divide" action="index.html" method="post">
+            <div class="form-group">
+              <label for="divide1"></label>
+              <input id="divide1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="divide2"></label>
+              <input id="divide2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-success">Divide</button>
+          </form>
+          <div class="well">
+            <h4 id="outputDivide"></h4>
+          </div>
+        </div>
+
+    </div>
+  </body>
+</html>
